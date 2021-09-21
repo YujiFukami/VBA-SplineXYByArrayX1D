@@ -132,7 +132,8 @@ Private Function SplineByArrayX1D(ByVal ArrayX1D, ByVal ArrayY1D, ByVal InputArr
     End If
 
     '計算処理※※※※※※※※※※※※※※※※※※※※※※※※※※※
-    Dim N%, K%, A, B, C, D
+    Dim A, B, C, D
+    Dim I&, J&, K&, M&, N& '数え上げ用(Long型)
     
     'スプライン計算用の各係数を計算する。参照渡しでA,B,C,Dに格納
     Dim Dummy
