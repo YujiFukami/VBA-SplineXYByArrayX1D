@@ -21,7 +21,7 @@ Option Explicit
 '------------------------------
 
 
-Function SplineXYByArrayX1D(ByVal ArrayXY2D, ByVal InputArrayX1D)
+Public Function SplineXYByArrayX1D(ByVal ArrayXY2D, ByVal InputArrayX1D)
     'スプライン補間計算を行う
     '＜出力値の説明＞
     '入力配列InputArrayX1Dに対する補間値の配列YList
